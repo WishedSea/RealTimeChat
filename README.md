@@ -37,4 +37,4 @@
 >> DB : Mysql 8.0.32 [Local Laptop]  
 >>
 > # Developer
->> 김학범
+>> [김학범](https://github.com/WishedSea)

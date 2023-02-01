@@ -1,11 +1,16 @@
 ## Folder
 ## ex) test/
+__pycache__/
+RealTimeChat/__pycache__/
+RealTimeChat/migrations/
 
 
 ## File
 ## ex) test.txt
-RealTimeChat/RealTimeChat/.utils.py
+utils.py
+db.sqlite3
+.DS_Store
+
 
 ## exec.
 ## ex) *.zip
-

@@ -17,5 +17,18 @@ from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    # Admin page
+    path("admin/", admin.site.urls),
+
+    # Registration page
+    # path('registration/', view.blablabla ),
+
+    # Login Page
+    # path('login/', view.blablabla),
+
+    # Main page (Select Room)
+    # path('index/', view.blablabla),
+
+    # Chatroom page
+    # path('chat/', view.blablabla),
 ]

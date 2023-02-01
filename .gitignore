@@ -1,8 +1,8 @@
 ## Folder
 ## ex) test/
-__pycache__/
-RealTimeChat/__pycache__/
-RealTimeChat/migrations/
+Django/__pycache__/
+Django/RealTimeChat/__pycache__/
+Django/RealTimeChat/migrations/
 
 
 ## File

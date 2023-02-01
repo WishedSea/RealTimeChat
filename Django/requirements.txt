@@ -1,0 +1,17 @@
+asgiref==3.6.0
+autopep8==2.0.1
+black==22.12.0
+cffi==1.15.1
+click==8.1.3
+cryptography==39.0.0
+Django==4.1.5
+mccabe==0.7.0
+mypy-extensions==0.4.3
+pathspec==0.11.0
+platformdirs==2.6.2
+pycodestyle==2.10.0
+pycparser==2.21
+pyflakes==3.0.1
+PyMySQL==1.0.2
+sqlparse==0.4.3
+tomli==2.0.1

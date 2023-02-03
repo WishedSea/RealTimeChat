@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # Created
     "RealTimeChat",
+    "userManagement",
+    "chatManagement",
 ]
 
 MIDDLEWARE = [
@@ -123,4 +125,4 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-AUTH_USER_MODEL = "RealTimeChat.Member"
+AUTH_USER_MODEL = "userManagement.Member"

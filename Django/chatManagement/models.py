@@ -4,6 +4,7 @@ from django.db import models
 # 필드에 PK를 선언하지 않는다면 id필드가 자동적으로 생성되며 autoIncrease가 적용된다
 class Room(models.Model):
     room_name = models.CharField("room_name", max_length=10, unique=True)
+    users = models.PositiveIntegerField("users", default=0)
 
     class Meta:
         managed = True

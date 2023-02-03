@@ -2,7 +2,11 @@
 ## ex) test/
 Django/__pycache__/
 Django/RealTimeChat/__pycache__/
+Django/chatManagement/__pycache__/
+Django/userManagement/__pycache__/
 Django/RealTimeChat/migrations/
+Django/userManagement/migrations/
+Django/chatManagement/migrations/
 
 
 ## File

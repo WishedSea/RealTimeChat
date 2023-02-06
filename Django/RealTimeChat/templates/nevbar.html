@@ -13,7 +13,18 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
+                    {% if is user.authenticated%}
+                        <a class="nav-link" href="{% url userManagement:logout %}">{{ user.ID }}Logout</a>
+                    {% else %}
+                        <a class"nav-link" href="{% url userManagement:login %}">Login</a>
+                    {% endif %}
+                </li>
+                <li>
+                    {% if is user.authenticated %}
+                        <a class="nav-link" href="{% url userManagement:edit %}">Edit</a>
+                    {% else %}
+                        <a class="nav-link" href="{% url uesrManagement:register %}">Register</a>
+                    {% endif %}
                 </li>
             </ul>
         </div>

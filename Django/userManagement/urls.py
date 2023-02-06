@@ -5,17 +5,17 @@ appname = "userManagement"
 
 urlpatterns = [
     # Register page
-    path("register/", None),
+    path("register/", None, name="register"),
     
     # Login page
-    path("login/", None),
+    path("login/", None, name="login"),
     
     # Logout page
-    path("logout/", None),
+    path("logout/", None, name="logout"),
     
     # User Info edit page
-    path("edit/", None),
+    path("edit/", None, name="edit"),
     
     # User Delete page
-    path("delete/", None),
+    path("delete/", None, name="delete"),
 ]

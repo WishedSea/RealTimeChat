@@ -30,5 +30,5 @@ urlpatterns = [
     path("chatManagement/", include("chatManagemetn.urls")),
     
     # main
-    path("", None),
+    path("", None, name="main"),
 ]

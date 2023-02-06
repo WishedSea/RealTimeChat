@@ -4,5 +4,5 @@ from django.urls import path
 appname = "chatManagement"
 
 urlpatterns = [
-    
+    # path("/",None, name=None),
 ]

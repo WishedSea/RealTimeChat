@@ -15,20 +15,20 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.urls.conf import include
+
+appname = "main"
 
 urlpatterns = [
     # Admin page
     path("admin/", admin.site.urls),
 
-    # Registration page
-    # path('registration/', view.blablabla ),
-
-    # Login Page
-    # path('login/', view.blablabla),
-
-    # Main page (Select Room)
-    # path('index/', view.blablabla),
-
-    # Chatroom page
-    # path('chat/', view.blablabla),
+    # userManagement (Create, Update, Delete)
+    path("userManagement/", include("userManagement.urls")),
+    
+    # chatManagement (CRUD)
+    path("chatManagement/", include("chatManagemetn.urls")),
+    
+    # main
+    path("", None),
 ]
